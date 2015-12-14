@@ -1,0 +1,299 @@
+/* GENERAL */
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+  max-width: 59rem;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADING */
+
+header {
+  margin: 0 0 1.9rem 0;
+  padding: 0.3rem 0 0 0;
+  width: 100%;
+  background-image: url('../pics/wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75rem;
+  font-weight: normal;
+  line-height: 0.5rem;
+}
+
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: normal;
+  margin: 0 0 1rem 0;
+}
+
+/* NAVIGATION */
+
+nav {
+  text-align: center;
+  padding: 0.6rem 0;
+  margin: 1.25rem 0 0;
+  border-style: double;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 0.6rem;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 700;
+  padding: 0.6rem;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 0.75rem;
+  text-align: center;
+  clear: both;
+  padding-top: 3rem;
+}
+
+.social-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0 0.3rem;
+}
+
+/* ABOUT PAGE */
+
+.profile-photo {
+  display: block;
+  max-width: 9.4rem;
+  margin: 0 auto 1.9rem;
+  border-radius: 100%;
+  padding: 0.0625rem;
+}
+
+.profile {
+  padding: 0 0.9375rem 0 0.9375rem;
+  box-sizing: border-box;
+}
+
+/* HOBBY PAGE */
+
+.hobby .container {
+  list-style: none;
+}
+
+.picturebox {
+  float: left;
+  width: 45%;
+  height: 13rem;
+  margin: 2.5%;
+  color: black;
+  list-style: none;
+  overflow: hidden;
+  border-radius: 5%;
+  box-shadow: 0.3rem 0.3rem 0.3rem #888888;
+}
+
+.picture {
+  width: 100%;
+  height: 10rem;
+}
+
+.caption {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+#hiking {
+  background-image: url('../pics/hiking.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#biking {
+  background-image: url('../pics/biking.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#xstitch {
+  background-image: url('../pics/xstitch.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#baking {
+  background-image: url('../pics/baking.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#boardgames {
+  background-image: url('../pics/boardgames.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#coding {
+  background-image: url('../pics/palmtree.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* CONTACT PAGE */
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 1.25rem;
+  background-repeat: no-repeat;
+  background-size: 1.25rem 1.25rem;
+  padding: 0 0 0 1.9rem;
+  margin: 0 0 0.6rem;
+}
+
+.contact-info li.phone a {
+  background-image: url('../pics/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../pics/mail.png');
+}
+
+/* COLORS */
+
+body {
+  background-color: #f2f3e1;
+}
+
+h1, h2, h3, a, .caption, .profile, footer, nav a, nav a:visited {
+  color: #56391c;
+} 
+
+.profile-photo {
+  border:1px solid #56391c;
+  background-color: #f2f3e1;
+}
+
+.picturebox {
+  background-color: #b9f3ff;
+}
+
+nav {
+  background: #b9f3ff;
+  border-color: #56391c;
+}
+
+nav a.selected, nav a:hover {
+  color: #003844;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 480px) {
+
+  .profile {
+    width: 50%;
+    float: left;
+  }
+
+  .picturebox {
+    width: 28.3333%;
+  }
+
+  .contact-info {
+    font-size: 1rem;
+  }
+
+  .contact-info a {
+    background-size: 1.55rem 1.55rem;
+  }
+
+  .social-icon {
+    width: 1.55rem;
+    height: 1.55rem;
+  }
+
+}
+
+@media screen and (min-width: 660px) {
+
+  nav ul {
+    text-align: left;
+    margin: 0 2.5rem;
+    padding: 0.3rem;
+    font-size: 1.25rem
+  }
+
+  nav li {
+    padding: 0 0.6rem 0 0.6rem;
+  }
+
+  .profile-photo {
+    border-radius: 5%;
+    max-width: 15.5rem;
+  }
+
+  .contact-info {
+    font-size: 1.25rem;
+  }
+
+  .contact-info a {
+    background-size: 1.9rem 1.9rem;
+  }
+
+  .social-icon {
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
