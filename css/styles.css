@@ -51,6 +51,10 @@ h3 {
   margin: 0 0 1rem 0;
 }
 
+.contact-header {
+  margin: 0 0 2rem 0;
+}
+
 /* NAVIGATION */
 
 nav {
@@ -250,6 +254,10 @@ nav a.selected, nav a:hover {
     height: 1.55rem;
   }
 
+  .contact-header {
+    margin: 0 0 3rem 0;
+  }
+
 }
 
 @media screen and (min-width: 660px) {
@@ -282,6 +290,11 @@ nav a.selected, nav a:hover {
     width: 1.9rem;
     height: 1.9rem;
   }
+
+  .contact-header {
+  margin: 0 0 4rem 0;
+  }
+
 
 }
 
