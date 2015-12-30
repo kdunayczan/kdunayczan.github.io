@@ -188,7 +188,7 @@ footer {
   min-height: 1.25rem;
   background-repeat: no-repeat;
   background-size: 1.25rem 1.25rem;
-  padding: 0 0 0 1.9rem;
+  padding: 0 0 0 2rem;
   margin: 0 0 0.6rem;
 }
 
@@ -247,6 +247,7 @@ nav a.selected, nav a:hover {
 
   .contact-info a {
     background-size: 1.55rem 1.55rem;
+    padding: 0 0 0 2.5rem;
   }
 
   .social-icon {
@@ -284,6 +285,7 @@ nav a.selected, nav a:hover {
 
   .contact-info a {
     background-size: 1.9rem 1.9rem;
+    padding: 0 0 0 3rem;
   }
 
   .social-icon {
