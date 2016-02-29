@@ -192,10 +192,6 @@ footer {
   margin: 0 0 0.6rem;
 }
 
-.contact-info li.phone a {
-  background-image: url('../pics/phone.png');
-}
-
 .contact-info li.mail a {
   background-image: url('../pics/mail.png');
 }
@@ -208,7 +204,7 @@ body {
 
 h1, h2, h3, a, .caption, .profile, footer, nav a, nav a:visited {
   color: #56391c;
-} 
+}
 
 .profile-photo {
   border:1px solid #56391c;
